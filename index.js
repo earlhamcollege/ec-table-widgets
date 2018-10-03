@@ -32,6 +32,26 @@ module.exports = {
       ]
     },
     {
+      name: 'table_bg_color',
+      type: 'select',
+      required: false,
+      label: 'Select backgorund Color',
+      choices: [
+        {
+          label: 'Color 0 (No Color)',
+          value: '0'
+        },
+        {
+          label: 'Color 1 (White)',
+          value: '1'
+        },
+        {
+          label: 'Color 2 (Off-white)',
+          value: '1'
+        }
+      ]
+    },
+    {
       name: 'table_title',
       type: 'string',
       label: 'Title'

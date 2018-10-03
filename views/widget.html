@@ -1,7 +1,7 @@
 <div id="table-size-selector-{{ data.widget.table_width }}">
   <div id="table-color-selector-{{ data.widget.table_border_color }}">
   <div id="table-container">
-    <table>
+    <table id="table-bg-color-{{ data.widget.table_bg_color}}">
       <th colspan="100%"><strong>{{ data.widget.table_title }}</strong></th>
       {% for item in data.widget.row_array %}
         <tr>
