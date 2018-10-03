@@ -9,6 +9,13 @@ module.exports = {
       label: 'Title'
     },
     {
+      name: 'table_delimiter',
+      type: 'string',
+      max: 1,
+      label: 'Seperator for table items',
+      def: '&'
+    },
+    {
       name: 'row_array',
       type: 'array',
       label: 'Table Info',

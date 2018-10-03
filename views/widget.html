@@ -4,7 +4,7 @@
       <th colspan="100%"><strong>{{ data.widget.table_title }}</strong></th>
       {% for item in data.widget.row_array %}
         <tr>
-        {% for n in item.table_row.split("&") %}
+        {% for n in item.table_row.split(data.widget.table_delimiter) %}
           <td>{{ n }}</td>
         {% endfor %}
         </tr>
