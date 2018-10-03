@@ -1,17 +1,14 @@
-<div id="table-container">
-
-
-
-
-  <table>
-    <th colspan="100%">{{ data.widget.table_title }}</th>
-    {% for item in data.widget.row_array %}
-      <tr>
-      {% for n in item.table_row.split("&") %}
-        <td>{{ n }}</td>
+<div id="size-selector-{{ data.widget.table_width }}">
+  <div id="table-container">
+    <table>
+      <th colspan="100%"><strong>{{ data.widget.table_title }}</strong></th>
+      {% for item in data.widget.row_array %}
+        <tr>
+        {% for n in item.table_row.split("&") %}
+          <td>{{ n }}</td>
+        {% endfor %}
+        </tr>
       {% endfor %}
-      </tr>
-    {% endfor %}
-  </table>
-
+    </table>
+  </div>
 </div>

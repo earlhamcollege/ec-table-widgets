@@ -20,6 +20,30 @@ module.exports = {
           required: false
         }
       ]
+    },
+    {
+      name: 'table_width',
+      type: 'select',
+      required: false,
+      label: 'Select quote width',
+      choices: [
+        {
+          label: 'No width constraint',
+          value: '0'
+        },
+        {
+          label: 'Small',
+          value: '1'
+        },
+        {
+          label: 'Medium',
+          value: '2'
+        },
+        {
+          label: 'Large',
+          value: '3'
+        }
+      ]
     }
   ],
   construct: function (self, options) {

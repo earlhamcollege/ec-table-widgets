@@ -1,6 +1,6 @@
 {
   "name": "ec-table-widgets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Place content into a table",
   "main": "index.js",
   "scripts": {
