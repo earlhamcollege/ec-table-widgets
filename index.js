@@ -47,7 +47,7 @@ module.exports = {
         },
         {
           label: 'Color 2 (Off-white)',
-          value: '1'
+          value: '2'
         }
       ]
     },
