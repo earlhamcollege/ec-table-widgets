@@ -83,5 +83,6 @@ module.exports = {
   ],
   construct: function (self, options) {
     self.pushAsset('stylesheet','ec-table');
+    self.pushAsset('stylesheet','variables');
   }
 };
