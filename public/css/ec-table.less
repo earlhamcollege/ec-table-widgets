@@ -9,27 +9,42 @@ th{
 td{
   padding: 5px 20px;
 }
+
 #table-container{
-  background-color: rgb(235, 137, 118);
-  width:100%;
-  padding: 1px;
-  display: inline-block;
+  padding: 2px;
 }
 
-#size-selector-0{
+@table-color0: none;
+@table-color1: #ffa12d;
+@table-color2: #da291c;
+@table-color3: #861f41;
+@table-color4: #6dc6e8;
+
+#table-color-selector-0{
+  background-color: @table-color0;
+}
+#table-color-selector-1{
+  background-color: @table-color1;
+}
+#table-color-selector-2{
+  background-color: @table-color2;
+}
+#table-color-selector-3{
+  background-color: @table-color3;
+}
+#table-color-selector-4{
+  background-color: @table-color4;
+}
+
+#table-size-selector-0{
   max-width: auto;
 }
-#size-selector-1{
+#table-size-selector-1{
   max-width: 25%;
 }
-#size-selector-2{
+#table-size-selector-2{
   max-width: 50%;
 }
-#size-selector-3{
+#table-size-selector-3{
   max-width: 100%;
-}
-
-
-table{
-  width: 100%;
 }

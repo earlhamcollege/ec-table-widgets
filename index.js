@@ -4,6 +4,34 @@ module.exports = {
   label: 'Ec Table',
   addFields: [
     {
+      name: 'table_border_color',
+      type: 'select',
+      required: false,
+      label: 'Select Highlight Color',
+      choices: [
+        {
+          label: 'Color 0 (No Color)',
+          value: '0'
+        },
+        {
+          label: 'Color 1 (Yellow)',
+          value: '1'
+        },
+        {
+          label: 'Color 2 (Red)',
+          value: '2'
+        },
+        {
+          label: 'Color 3 (Maroon)',
+          value: '3'
+        },
+        {
+          label: 'Color 4 (Blue)',
+          value: '4'
+        }
+      ]
+    },
+    {
       name: 'table_title',
       type: 'string',
       label: 'Title'
