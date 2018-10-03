@@ -101,6 +101,23 @@ module.exports = {
       ]
     }
   ],
+  arrangeFields: [
+    {
+      name:'content',
+      label:'Content Settings',
+      fields: ['table_title','row_array']
+    },
+    {
+      name:'color',
+      label:'Color Settings',
+      fields: ['table_bg_color','table_border_color']
+    },
+    {
+      name:'config',
+      label:'Configuration',
+      fields: ['table_width','table_delimiter']
+    }
+  ],
   construct: function (self, options) {
     self.pushAsset('stylesheet','ec-table');
     self.pushAsset('stylesheet','variables');
