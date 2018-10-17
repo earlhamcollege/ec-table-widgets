@@ -1,6 +1,6 @@
 {
   "name": "ec-table-widgets",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Place content into a table",
   "main": "index.js",
   "scripts": {
@@ -19,4 +19,4 @@
     "url": "https://github.com/earlhamcollege/ec-table-widgets/issues"
   },
   "homepage": "https://github.com/earlhamcollege/ec-table-widgets#readme"
-}
+

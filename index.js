@@ -1,7 +1,7 @@
 module.exports = {
   extend: 'apostrophe-widgets',
   contextual: true,
-  label: 'Ec Table',
+  label: 'EC Table',
   beforeConstruct: function(self, options) {
     options.addFields = [
       {
