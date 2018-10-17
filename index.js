@@ -58,6 +58,12 @@ module.exports = {
         label: 'Title'
       },
       {
+        name: 'table_title_row',
+        type: 'string',
+        label: 'Subtitle row (optional)',
+        required: false
+      },
+      {
         name: 'table_delimiter',
         type: 'string',
         max: 1,
@@ -107,7 +113,7 @@ module.exports = {
       {
         name:'content',
         label:'Content Settings',
-        fields: ['table_title','row_array']
+        fields: ['table_title','row_array','table_title_row']
       },
       {
         name:'color',

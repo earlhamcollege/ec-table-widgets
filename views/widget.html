@@ -3,6 +3,13 @@
   <div id="table-container">
     <table id="table-bg-color-{{ data.widget.table_bg_color}}">
       <th colspan="100%"><strong>{{ data.widget.table_title }}</strong></th>
+        {% if data.widget.table_title_row %}
+          <tr>
+            {% for n in data.widget.table_title_row.split(data.widget.table_delimiter) %}
+              <td><strong>{{ n }}</strong></td>
+            {% endfor %}
+          </tr>
+        {% endif %}
       {% for item in data.widget.row_array %}
         <tr>
         {% for n in item.table_row.split(data.widget.table_delimiter) %}
