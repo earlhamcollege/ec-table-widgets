@@ -128,7 +128,8 @@ module.exports = {
     ].concat(options.addFields || [])
   },
   construct: function (self, options) {
-    self.pushAsset('stylesheet','ec-table');
     self.pushAsset('stylesheet','variables');
+    self.pushAsset('stylesheet','always');
+    self.pushAsset('stylesheet','custom');
   }
 };
